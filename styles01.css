@@ -1,0 +1,29 @@
+
+.container  {  
+    margin-top: 5%;
+    /*width: 70%;*/
+    display: flex;
+    justify-content: space-around;
+    border:10px solid yellow;
+    margin:auto;
+    height: 200px;
+}
+
+.item {
+    flex-grow: 1;
+   
+    background-color: #66ccff;
+    border:5px solid #0f3d3d;
+    border-radius: 2%;
+}
+
+.item + .item {
+    margin-left: 2%;
+  }
+
+
+/*
+#item3 {
+    flex-grow: 2;
+}
+*/
